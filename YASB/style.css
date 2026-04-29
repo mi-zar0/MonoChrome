@@ -1,0 +1,194 @@
+/* --- Root Variables (Colors) --- */
+:root {
+  /* --- Mica Inspired Color Variables --- */
+    --background-color: #1f1f1f;
+    --foreground-color: #cacaca;
+    --green: #a9a9a9;
+}
+
+
+/* GLOBAL CONFIGURATIONS */
+.yasb-bar {
+  background-color: transparent
+}
+
+
+/* CLOCK */
+.clock-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-weight: 600;
+  padding: 5px 18px;
+}
+
+.clock-widget {
+  background-color: var(--background-color);
+  border-radius: 18px;
+  margin-right: 10px;
+}
+
+
+/* KOMOREBI WORKSPACES */
+.komorebi-workspaces .widget-container {
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: var(--background-color);
+  border-radius: 18px;
+}
+.komorebi-workspaces .ws-btn {
+  font-family: "JetBrainsMono NFP";
+  font-size: 14px;
+  color: #292929;
+  background-color: #292929;
+  font-weight: 700;
+  padding: 4px 15px;
+  margin: 0px 2px 0px 2px;
+  border-radius: 13px;
+}
+.komorebi-workspaces .offline-status {
+  background-color: var(--background-color);
+  border-radius: 18px;
+  font-family: "JetBrainsMono NFP";
+  font-size: 14px;
+  font-weight: 600;
+  color: #696969;
+  padding: 4px 15px;
+}
+.komorebi-workspaces .ws-btn.populated {
+  background-color: #292929;
+  border-radius: 13px;
+  font-family: "JetBrainsMono NFP";
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--foreground-color);
+  padding: 4px 15px;
+}
+.komorebi-workspaces .ws-btn.active {
+  background-color: var(--foreground-color);
+  border-radius: 12px;
+  padding: 3px 23px;
+  color: var(--background-color);
+}
+.komorebi-workspaces .ws-btn.offline {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  font-family: "JetBrainsMono NFP";
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--black);
+  padding: 5px 18px;
+}
+
+
+/* Weather */
+.weather-widget {
+  background-color: var(--background-color);
+  border-radius: 18px;
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-weight: 600;
+  padding: 5px 18px;
+}
+.weather-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-weight: 600;
+}
+
+
+/* VOLUME */
+.volume-widget {
+  background-color: var(--background-color);
+  border-radius: 18px;
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-weight: 700;
+  padding: 5px 17px;
+  margin-right: 10px;
+}
+.volume-widget .icon {
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-size: 20px;
+  margin-top: 3px;
+  margin-right: 3px;
+}
+.volume-widget .icon.muted {
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-size: 17px;
+}
+.volume-widget .label {
+  font-size: 14px;
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-weight: 600;
+}
+
+
+/*WIDGET*/
+.home-widget .label {
+  font-family: "JetBrainsMono NFP";
+  color: var(--foreground-color);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 18px;
+  margin-right: 10px;
+  margin-left: 2px;
+  background-color: var(--background-color);
+  border-radius: 18px;
+}
+
+
+/*MEDIA WIDGET*/
+.media-widget {
+  background-color: var(--foreground-color);
+  border: 2px solid var(--background-color);
+  border-radius: 18px;
+  margin-right: 10px;
+}
+.media-widget .label {
+  font: "JetBrainsMono NFP";
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px 18px;
+  margin-bottom: 2px;
+  color: var(--background-color);
+}
+
+
+/*WALLPAPERS*/
+.wallpapers-widget {
+  margin-right: 2px;
+}
+.wallpapers-widget .widget-container {
+  background-color: var(--background-color);
+  border-radius: 18px;
+  padding: 5px 18px;
+}
+.wallpapers-widget .icon{
+  color: var(--foreground-color);
+  font-size: 17px;
+  font: "JetBrainsMono NFP";
+  padding-right: 4px;
+  padding-bottom: 2px;
+}
+.wallpapers-gallery-buttons {
+  background-color:rgba(255, 255, 255, 0);
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 8px 0;
+  width: 200px;
+}
+.wallpapers-gallery-image {
+  border: 4px solid transparent;
+}
+.wallpapers-gallery-image:hover {
+  border: 2px solid var(--green);
+  border-radius: 7px;
+}
